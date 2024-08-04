@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whimsical Treasure Chest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="countdown"></div>
+        <div id="treasure-chest"></div>
+        <canvas id="sunburst" width="300" height="300"></canvas>
+        <div id="emoji-container">
+            <div id="win-message"></div>
+            <div id="emoji"></div>
+        </div>
+        <button id="stats-button">Treasure Stats</button>
+    </div>
+
+    <dialog id="stats-dialog">
+        <h2>Your Treasure Trove</h2>
+        <div id="stats-content"></div>
+        <button id="close-stats">Close</button>
+    </dialog>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
